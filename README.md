@@ -51,3 +51,15 @@ die Datei befindet sich im public folder
 wenn wir Hintergrundbilder aus dem CSS einfügen => müssen die Bilder im src Ordner liegen
 
 wenn sie über "inline-style" eingefügt werden müssen sie im public sein
+
+
+Wenn wir ein Projekt von github holen hat es keine node_modules
+um diese herunterzuladen
+npm i
+installiert alle benötigten packages
+
+Seite online stellen:
+https://www.netlify.com/
+new site from git
+projekt suchen
+bei Einstellungen nichts ändern
