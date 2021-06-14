@@ -1,0 +1,7 @@
+.comments {
+    display: flex;
+    justify-content: space-evenly;
+}
+.comments figure {
+   margin: 0;
+}

@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+// import VARIABLENNAME from './PATH/TO/FILE' 
+// Wichtig mit ./ beginnen sonst sucht er in den node_modules
+import Navigation from './componets/Navigation'
+import Hero from './componets/Hero';
+import MainBG from './componets/MainBG';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      {/* <Navigation></Navigation> */}
+      <Navigation />
+      <Hero />
+      <MainBG />
+    </main>
   );
 }
 
